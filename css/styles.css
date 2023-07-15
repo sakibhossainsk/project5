@@ -1,0 +1,199 @@
+/** common css start **/
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #of2656;  
+
+}
+/** common css end**/
+
+/** header css start**/
+
+header {
+	border-bottom: 2px solid #eae8e8; 
+	padding: 15px 0; 
+
+} 
+
+.container { 
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}  
+
+.logo {
+	width: 10%;
+	float:left;  
+}
+
+.logo img {
+	width: 100%;
+
+}
+
+.menu { 
+	width: 50%;   
+	float: right;  
+ 
+} 
+
+.menu ul { 
+	float: right; 
+
+}
+
+.menu ul li {
+	list-style: none; 
+	float:left; 
+
+}
+
+.menu ul li a { 
+	display: inline-block; 
+	padding: 0 25px;
+	color: #0f2665;
+	text-decoration: none; 
+	transition: .33s; 
+}  
+
+.menu ul li a:hover {
+	color: #008aff; 
+
+
+} 
+
+.menu ul li a:last-child {
+	padding-right: 0;  
+
+} 
+
+/** header css end**/
+
+/** banner css start **/ 
+ 
+
+.banner { padding:0px 316px 0px 316px;          
+
+}
+
+.container2 {
+	margin: 0 auto;
+	width: 100%; 
+	 
+}
+
+.b_h1 { 
+	margin: 0px; 
+	padding: 40px 0px 10px;     
+	font-size: 50px;  
+	text-align: center;
+	color: #0f2665;
+
+} 
+ 
+.b_h1 span { color: blue;
+ 
+}
+
+.b_p { 
+	margin: 0px; 
+	font-size: 14px;  
+	text-align: center;
+	color: #0f2665;
+ 
+} 
+
+.b_img { 
+	padding: 20px 0px 20px;   
+
+}
+
+.b_img img { width: 100%; 
+
+} 
+
+/** banner css end **/
+
+/**feature css start**/ 
+
+.feature {
+	margin: 0 auto;
+	padding:20px 0px 20px; 
+	width: 100%; 
+	overflow: hidden;
+
+}
+ .f_left {
+ 		width: 50%;    
+ 		float: left;
+
+ }
+ .f_left h1 { 
+ 	margin: 0px;
+	font-size: 50px; 
+	color: red; 
+	float: right; 
+		 
+}
+.f_left p { 
+	margin: 0px;
+	padding-left: 330px;  
+	font-size: 14px; 
+	text-align: justify;    
+	color: #0f2665; 
+	overflow: hidden; 
+	clear:both; 
+}
+.f_left p span {
+	float: right; 
+}
+ 
+.f_right {width: 48%;     
+ 		float: right;  
+}
+.f_right h1 { 
+	margin: 0px;
+	padding-right: 220px;    
+	font-size: 50px;
+	color: #0f2665;         
+ 
+} 
+
+/**feature css end**/   
+
+/**serivce css start**/
+
+.service { 
+	margin: 0 auto;
+	padding: 20px 110px 20px 110px;        
+	width: 100%;    
+	overflow: hidden;  
+ 
+} 
+
+.s1 { 
+	width: 300px;
+	padding:20px;      
+	float: left; 
+	overflow: hidden;
+
+}
+ img { width: 100%;
+ }  
+
+/**service css end**/ 
+
+/**footer css start**/ 
+.container3 { 
+	margin-top: 50px; 
+	width: 100%;
+	background: blue;
+	overflow: hidden;  
+	text-align: center; 
+	color: white;  
+
+}
+
+/**footer css end**/  
